@@ -1,0 +1,39 @@
+
+
+        ##REG FLOW ->
+        user enters email
+        new user is created with email
+        emailVerfiied is set to false by default
+        jwt that expires in 40mins is generated and the an email is sent to the users email
+
+
+        after users click on the link to verify email emailVerified is set To trues
+
+        the user is the redirected to page where registration is completed
+        so the users details is coming via a route that contains the users email
+         we thencheck if a user with that email exists, if the email is verified and if the user has gone through this process before
+         we then send a verification code to users mobile number
+         phoneNumVerified is set to false
+         when the user verifies his mobile number we then set phoneNumVerified to true
+
+//        TODO if user is the sender, the orderRequest form will request for the receiver's name and number
+//        TODO else if user is the receiver, the orderRequest form will request for the sender's name and number
+//        TODO finally if user is the intermediary, the orderRequest form will request for the sender's and receiver's name and number
+
+
+
+
+
+
+         ##################################
+
+         test the 1. order ;
+                  2. wallet ✅;
+                  3. transaction ;
+                  5. file upload;
+                  6. complain;
+                  7. password update profile update; ✅
+
+
+
+
